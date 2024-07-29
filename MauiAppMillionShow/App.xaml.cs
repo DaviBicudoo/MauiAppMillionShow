@@ -66,6 +66,67 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = true,  Description = "Saci-Pererê"}
                 }
             },
+            new Question
+            {
+                Id = 6,
+                Statement = "Which country was Fidel Castro born in?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Jamaica"},
+                    new Alternative {Correct = true,  Description = "Cuba"},
+                    new Alternative {Correct = false,  Description = "El Salvador"},
+                    new Alternative {Correct = false,  Description = "Mexico"}
+                }
+            },
+            new Question
+            {
+                Id = 7,
+                Statement = "Who proclaimed the republic in Brazil in 1889?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Duque de Caxias"},
+                    new Alternative {Correct = false,  Description = "Marechal Rondon"},
+                    new Alternative {Correct = false,  Description = "Dom Pedro II"},
+                    new Alternative {Correct = true,  Description = "Marechal Deodoro"}
+                }
+            },
+            new Question
+            {
+                Id = 8,
+                Statement = "Who is the patron of the Brazilian army?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Marechal Deodoro"},
+                    new Alternative {Correct = false,  Description = "Barão de Maua"},
+                    new Alternative {Correct = true,  Description = "Duque de Caxias"},
+                    new Alternative {Correct = false,  Description = "Marquês de Pombal"}
+                }
+            },
+            new Question
+            {
+                Id = 9,
+                Statement = "Who was the presenter who reproached the freshmen by blowing a horn?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Raul Gil"},
+                    new Alternative {Correct = false,  Description = "Bolinha"},
+                    new Alternative {Correct = false,  Description = "Flávio Cavalcanti"},
+                    new Alternative {Correct = true,  Description = "Chacrinha"}
+                }
+            },
+            new Question
+            {
+                Id = 10,
+                Statement = "What was Mary Shelley's Frankenstein?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true,  Description = "Monster"},
+                    new Alternative {Correct = false,  Description = "Gorila"},
+                    new Alternative {Correct = false,  Description = "Príncipe"},
+                    new Alternative {Correct = false,  Description = "Sapo"}
+                }
+            },
+
         };
 
         public App()
