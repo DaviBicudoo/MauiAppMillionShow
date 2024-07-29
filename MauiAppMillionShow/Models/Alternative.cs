@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace MauiAppMillionShow.Models
 {
-    internal class Alternative
+    public class Alternative
     {
-
+        public string Description { get; set; }
+        public bool Correct { get; set; }
     }
 }
