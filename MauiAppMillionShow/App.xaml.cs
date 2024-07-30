@@ -126,7 +126,66 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = false,  Description = "Sapo"}
                 }
             },
-
+            new Question
+            {
+                Id = 11,
+                Statement = "What is the zodiac sign of someone born on New Year's Day?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Virgem"},
+                    new Alternative {Correct = false,  Description = "Capricórnio"},
+                    new Alternative {Correct = true,  Description = "Aquário"},
+                    new Alternative {Correct = false,  Description = "Ares"}
+                }
+            },
+            new Question
+            {
+                Id = 12,
+                Statement = "Who founded the Ford car factory?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Harrison Ford"},
+                    new Alternative {Correct = false,  Description = "Gerald Ford"},
+                    new Alternative {Correct = true,  Description = "Henry Ford"},
+                    new Alternative {Correct = false,  Description = "Anna Ford"}
+                }
+            },
+            new Question
+            {
+                Id = 13,
+                Statement = "What color is associated with ecological groups?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Blue"},
+                    new Alternative {Correct = false,  Description = "Red"},
+                    new Alternative {Correct = false,  Description = "Yellow"},
+                    new Alternative {Correct = true,  Description = "Green"}
+                }
+            },
+            new Question
+            {
+                Id = 14,
+                Statement = "How many degrees centigrade does the water boil at?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "50º"},
+                    new Alternative {Correct = false,  Description = "75º"},
+                    new Alternative {Correct = false,  Description = "25º"},
+                    new Alternative {Correct = true,  Description = "100º"}
+                }
+            },
+            new Question
+            {
+                Id = 15,
+                Statement = "Quando é comemorado o dia da independência do Brasil?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "On 21 April"},
+                    new Alternative {Correct = false,  Description = "On 12 October"},
+                    new Alternative {Correct = true,  Description = "On 7 September"},
+                    new Alternative {Correct = false,  Description = "On 25 December"}
+                }
+            },
         };
 
         public App()
