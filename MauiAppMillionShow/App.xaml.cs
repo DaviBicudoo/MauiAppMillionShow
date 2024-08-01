@@ -186,6 +186,67 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = false,  Description = "On 25 December"}
                 }
             },
+            new Question
+            {
+                Id = 16,
+                Statement = "Which place is also called the Holy See?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Veneza"},
+                    new Alternative {Correct = false,  Description = "Vitória"},
+                    new Alternative {Correct = false,  Description = "Vancouver"},
+                    new Alternative {Correct = true,  Description = "Vaticano"}
+                }
+            },
+            new Question
+            {
+                Id = 17,
+                Statement = "Who has the motto: Always on the alert?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Médicos"},
+                    new Alternative {Correct = true,  Description = "Escoteiros"},
+                    new Alternative {Correct = false,  Description = "Bombeiros"},
+                    new Alternative {Correct = false,  Description = "Policiais"}
+                }
+            },
+            new Question
+            {
+                Id = 18,
+                Statement = "Who was Julieta's great love?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true,  Description = "Romeu"},
+                    new Alternative {Correct = false,  Description = "Orfeu"},
+                    new Alternative {Correct = false,  Description = "Hamlet"},
+                    new Alternative {Correct = false,  Description = "Iago"}
+                }
+            },
+            new Question
+            {
+                Id = 19,
+                Statement = "How many signs make up the zodiac?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Nine"},
+                    new Alternative {Correct = false,  Description = "Ten"},
+                    new Alternative {Correct = false,  Description = "Eleven"},
+                    new Alternative {Correct = true,  Description = "Twelve"}
+                }
+            },
+            new Question
+            {
+                Id = 20,
+                Statement = "Vatapá is a typical food of which state?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false,  Description = "Paraná"},
+                    new Alternative {Correct = false,  Description = "Santa Catarina"},
+                    new Alternative {Correct = false,  Description = "São Paulo"},
+                    new Alternative {Correct = true,  Description = "Bahia"}
+                }
+            },
+
         };
 
         public App()
