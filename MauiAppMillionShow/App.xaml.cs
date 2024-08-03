@@ -305,7 +305,171 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = false, Description = "Zezé Di Camargo"},
                     new Alternative {Correct = false, Description = "Chitãozinho"}
                 }
+            },
+            new Question
+            {
+                Id = 26,
+                Statement = "Who created the characters Pedrinho, Narizinho, and Emília?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Maurício de Sousa"},
+                    new Alternative {Correct = false, Description = "Ziraldo"},
+                    new Alternative {Correct = true,  Description = "Monteiro Lobato"},
+                    new Alternative {Correct = false, Description = "Machado de Assis"}
+                }
+            },
+            new Question
+            {
+                Id = 27,
+                Statement = "Who founded Microsoft?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Sultão de Brunei"},
+                    new Alternative {Correct = false, Description = "Akio Morita"},
+                    new Alternative {Correct = true,  Description = "Bill Gates"},
+                    new Alternative {Correct = false, Description = "Príncipe Charles"}
+                }
+            },
+            new Question
+            {
+                Id = 28,
+                Statement = "What is the name given to a car's spare tire?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Calota"},
+                    new Alternative {Correct = true,  Description = "Estepe"},
+                    new Alternative {Correct = false, Description = "Macaco"},
+                    new Alternative {Correct = false, Description = "Chave de roda"}
+                }
+            },
+            new Question
+            {
+                Id = 29,
+                Statement = "What is the name of the cowardly dog of Salsicha from the cartoons?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Floquinho"},
+                    new Alternative {Correct = false, Description = "Rin-Tin-Tin"},
+                    new Alternative {Correct = false, Description = "Lassie"},
+                    new Alternative {Correct = true,  Description = "Scooby-Doo"}
+                }
+            },
+            new Question
+            {
+                Id = 30,
+                Statement = "How many sets of natural teeth does a human have during their lifetime?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "One"},
+                    new Alternative {Correct = true,  Description = "Two"},
+                    new Alternative {Correct = false, Description = "Three"},
+                    new Alternative {Correct = false, Description = "Four"}
+                }
+            },
+            new Question
+            {
+                Id = 31,
+                Statement = "In which position did Edinho, Pelé's son, play for Santos?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Zagueiro"},
+                    new Alternative {Correct = true,  Description = "Goleiro"},
+                    new Alternative {Correct = false, Description = "Atacante"},
+                    new Alternative {Correct = false, Description = "Armador"}
+                }
+            },
+            new Question
+            {
+                Id = 32,
+                Statement = "What is the hardest precious stone found in nature?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Esmeralda"},
+                    new Alternative {Correct = false, Description = "Rubi"},
+                    new Alternative {Correct = false, Description = "Pérola"},
+                    new Alternative {Correct = true,  Description = "Diamante"}
+                }
+            },
+            new Question
+            {
+                Id = 33,
+                Statement = "What is the name of the place where wines are stored?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true,  Description = "Adega"},
+                    new Alternative {Correct = false, Description = "Biblioteca"},
+                    new Alternative {Correct = false, Description = "Sóton"},
+                    new Alternative {Correct = false, Description = "Sala"}
+                }
+            },
+            new Question
+            {
+                Id = 34,
+                Statement = "Which singer is known as 'the king of rock'?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Frank Sinatra"},
+                    new Alternative {Correct = false, Description = "Little Richard"},
+                    new Alternative {Correct = true,  Description = "Elvis Presley"},
+                    new Alternative {Correct = false, Description = "Richie Valens"}
+                }
+            },
+            new Question
+            {
+                Id = 35,
+                Statement = "Who is Piu-Piu's enemy in the cartoons?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Félix"},
+                    new Alternative {Correct = false, Description = "Tom"},
+                    new Alternative {Correct = true,  Description = "Frajola"},
+                    new Alternative {Correct = false, Description = "Mingau"}
+                }
+            },
+            new Question
+            {
+                Id = 36,
+                Statement = "Joana Prado is the real name of which artist?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Tiazinha"},
+                    new Alternative {Correct = true,  Description = "Feiticeira"},
+                    new Alternative {Correct = false, Description = "Lady Lu"},
+                    new Alternative {Correct = false, Description = "Sheila Mello"}
+                }
+            },
+            new Question
+            {
+                Id = 37,
+                Statement = "How many days are there in a leap year?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "364"},
+                    new Alternative {Correct = false, Description = "365"},
+                    new Alternative {Correct = true,  Description = "366"},
+                    new Alternative {Correct = false, Description = "367"}
+                }
+            },
+            new Question
+            {
+                Id = 38,
+                Statement = "Which reptile changes color depending on its environment?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Sapo"},
+                    new Alternative {Correct = true,  Description = "Camaleão"},
+                    new Alternative {Correct = false, Description = "Lagarto"},
+                    new Alternative {Correct = false, Description = "Jacaré"}
+                }
             }
+
+
+
+
+
+
+
+
 
         };
 
