@@ -246,6 +246,66 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = true,  Description = "Bahia"}
                 }
             },
+            new Question
+            { 
+                Id = 21,
+                Statement = "What is the name of the part where the bullets are stored in a revolver?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Cano"},
+                    new Alternative {Correct = true,  Description = "Tambor"},
+                    new Alternative {Correct = false, Description = "Agulha"},
+                    new Alternative {Correct = false, Description = "Gatilho"}
+                }
+            },
+            new Question
+            {
+                Id = 22,
+                Statement = "Which character from the 'Turma da Mônica' has only five hairs?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true,  Description = "Mônica"},
+                    new Alternative {Correct = false, Description = "Cebolinha"},
+                    new Alternative {Correct = false, Description = "Cascão"},
+                    new Alternative {Correct = false, Description = "Magali"}
+                }
+            },
+            new Question
+            {
+                Id = 23,
+                Statement = "Which singer was nicknamed 'Ternurinha' during the Young Guard era?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Silvinha"},
+                    new Alternative {Correct = true,  Description = "Wanderléia"},
+                    new Alternative {Correct = false, Description = "Gretchen"},
+                    new Alternative {Correct = false, Description = "Martinha"}
+                }
+            },
+            new Question
+            {
+                Id = 24,
+                Statement = "Barbecue is considered a typical food of which state?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Ceará"},
+                    new Alternative {Correct = true,  Description = "Rio Grande do Sul"},
+                    new Alternative {Correct = false, Description = "Pará"},
+                    new Alternative {Correct = false, Description = "Maranhão"}
+                }
+            },
+            new Question
+            {
+                Id = 25,
+                Statement = "Which singer is the father of the duo Sandy and Júnior?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Leonardo"},
+                    new Alternative {Correct = true,  Description = "Xororó"},
+                    new Alternative {Correct = false, Description = "Zezé Di Camargo"},
+                    new Alternative {Correct = false, Description = "Chitãozinho"}
+                }
+            }
 
         };
 
