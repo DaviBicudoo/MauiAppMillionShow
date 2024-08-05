@@ -973,6 +973,255 @@ namespace MauiAppMillionShow
 
         };
 
+        List<Question> hardQuestions = new()
+        {
+            new Question
+            {
+                Id = 81,
+                Statement = "How did the French king Louis XVI and his wife Marie Antoinette die?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Executed"},
+                    new Alternative {Correct = false, Description = "Shot"},
+                    new Alternative {Correct = true, Description = "Guillotined"},
+                    new Alternative {Correct = false, Description = "Burned"}
+                }
+            },
+            new Question
+            {
+                Id = 82,
+                Statement = "What is the term for a print made on wooden boards?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Materography"},
+                    new Alternative {Correct = false, Description = "Lithography"},
+                    new Alternative {Correct = true, Description = "Woodcut"},
+                    new Alternative {Correct = false, Description = "Screen Printing"}
+                }
+            },
+            new Question
+            {
+                Id = 83,
+                Statement = "What did the painter Claude Monet represent in his paintings?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "The Gardens of Giverny"},
+                    new Alternative {Correct = false, Description = "Paris Bistros"},
+                    new Alternative {Correct = false, Description = "Scenes from the Moulin Rouge"},
+                    new Alternative {Correct = false, Description = "Provence Landscapes"}
+                }
+            },
+            new Question
+            {
+                Id = 84,
+                Statement = "Miró, Picasso, and Salvador Dalí were painters from which country?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Italian"},
+                    new Alternative {Correct = false, Description = "Portuguese"},
+                    new Alternative {Correct = true, Description = "Spanish"},
+                    new Alternative {Correct = false, Description = "Chilean"}
+                }
+            },
+            new Question
+            {
+                Id = 85,
+                Statement = "Which Formula 1 driver won the World Championship title five times?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Jacques Stewart"},
+                    new Alternative {Correct = false, Description = "Alain Prost"},
+                    new Alternative {Correct = true, Description = "Ayrton Senna"},
+                    new Alternative {Correct = false, Description = "Juan Manuel Fangio"}
+                }
+            },
+            new Question
+            {
+                Id = 86,
+                Statement = "What is the largest island in Europe?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Great Britain"},
+                    new Alternative {Correct = false, Description = "Ireland"},
+                    new Alternative {Correct = true, Description = "Iceland"},
+                    new Alternative {Correct = false, Description = "Sicily"}
+                }
+            },
+            new Question
+            {
+                Id = 87,
+                Statement = "The film 'The Sound of Music,' awarded 5 Oscars, starred:",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Judy Garland"},
+                    new Alternative {Correct = false, Description = "Shirley Temple"},
+                    new Alternative {Correct = true, Description = "Julie Andrews"},
+                    new Alternative {Correct = false, Description = "Doris Day"}
+                }
+            },
+            new Question
+            {
+                Id = 88,
+                Statement = "Who was the first president of Brazil elected by the people?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Getúlio Vargas"},
+                    new Alternative {Correct = true, Description = "Prudente de Morais"},
+                    new Alternative {Correct = false, Description = "Washington Luís"},
+                    new Alternative {Correct = false, Description = "Tancredo Neves"}
+                }
+            },
+            new Question
+            {
+                Id = 89,
+                Statement = "What is the term for an explorer of caves and caverns?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "Speleologist"},
+                    new Alternative {Correct = false, Description = "Agrologist"},
+                    new Alternative {Correct = false, Description = "Psychologist"},
+                    new Alternative {Correct = false, Description = "Campanologist"}
+                }
+            },
+            new Question
+            {
+                Id = 90,
+                Statement = "What is the most used transportation system in Brazil?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Railway"},
+                    new Alternative {Correct = false, Description = "Air"},
+                    new Alternative {Correct = false, Description = "Waterway"},
+                    new Alternative {Correct = true, Description = "Road"}
+                }
+            },
+            new Question
+            {
+                Id = 91,
+                Statement = "The whale is classified under which group of mammals?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "Cetaceans"},
+                    new Alternative {Correct = false, Description = "Felids"},
+                    new Alternative {Correct = false, Description = "Sirenids"},
+                    new Alternative {Correct = false, Description = "Carnivores"}
+                }
+            },
+            new Question
+            {
+                Id = 92,
+                Statement = "In which country did Leonardo da Vinci spend his final days?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Spain"},
+                    new Alternative {Correct = false, Description = "Netherlands"},
+                    new Alternative {Correct = true, Description = "France"},
+                    new Alternative {Correct = false, Description = "Italy"}
+                }
+            },
+            new Question
+            {
+                Id = 93,
+                Statement = "Which country does Greenland belong to?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "Denmark"},
+                    new Alternative {Correct = false, Description = "England"},
+                    new Alternative {Correct = false, Description = "Norway"},
+                    new Alternative {Correct = false, Description = "United States"}
+                }
+            },
+            new Question
+            {
+                Id = 94,
+                Statement = "Pablo Picasso was one of the creators of:",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "Cubism"},
+                    new Alternative {Correct = false, Description = "Surrealism"},
+                    new Alternative {Correct = false, Description = "Impressionism"},
+                    new Alternative {Correct = false, Description = "Realism"}
+                }
+            },
+            new Question
+            {
+                Id = 95,
+                Statement = "What was Juan Ponce de León searching for when he discovered Florida?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "The Lost City of Gold"},
+                    new Alternative {Correct = true, Description = "The Fountain of Youth"},
+                    new Alternative {Correct = false, Description = "Unicorns"},
+                    new Alternative {Correct = false, Description = "His Cat"}
+                }
+            },
+            new Question
+            {
+                Id = 96,
+                Statement = "The Falkland Islands are also called:",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Stanley"},
+                    new Alternative {Correct = false, Description = "Weddells"},
+                    new Alternative {Correct = false, Description = "Medanosa"},
+                    new Alternative {Correct = true, Description = "Falkland"}
+                }
+            },
+            new Question
+            {
+                Id = 97,
+                Statement = "Which of these countries is not located on the Equator?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Kenya"},
+                    new Alternative {Correct = false, Description = "Ecuador"},
+                    new Alternative {Correct = true, Description = "Chile"},
+                    new Alternative {Correct = false, Description = "Indonesia"}
+                }
+            },
+            new Question
+            {
+                Id = 98,
+                Statement = "Who was the first woman inducted into the Rock and Roll Hall of Fame?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Janis Joplin"},
+                    new Alternative {Correct = false, Description = "Carole King"},
+                    new Alternative {Correct = true, Description = "Aretha Franklin"},
+                    new Alternative {Correct = false, Description = "Diana Ross"}
+                }
+            },
+            new Question
+            {
+                Id = 99,
+                Statement = "New Caledonia is part of:",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Micronesia"},
+                    new Alternative {Correct = true, Description = "Melanesia"},
+                    new Alternative {Correct = false, Description = "Polynesia"},
+                    new Alternative {Correct = false, Description = "Indonesia"}
+                }
+            },
+            new Question
+            {
+                Id = 100,
+                Statement = "Which country has a tree depicted on its flag?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Egypt"},
+                    new Alternative {Correct = true, Description = "Canada"},
+                    new Alternative {Correct = false, Description = "Lebanon"},
+                    new Alternative {Correct = false, Description = "Morocco"}
+                }
+            },
+
+
+
+
+
+        };
+
         public App()
         {
             InitializeComponent();
