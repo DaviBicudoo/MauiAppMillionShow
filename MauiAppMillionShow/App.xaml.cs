@@ -502,6 +502,114 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = true, Description = "Walter Salles Júnior"}
                 }
             },
+            new Question
+            {
+                Id = 42,
+                Statement = "What does the term e-mail mean?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Quick Mail"},
+                    new Alternative {Correct = true, Description = "Electronic Mail"},
+                    new Alternative {Correct = false, Description = "Elegant Mail"},
+                    new Alternative {Correct = false, Description = "Machine Mail"}
+                }
+            },
+            new Question
+            {
+                Id = 43,
+                Statement = "Camillo is the last name of which singer born in Brotas?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Leonardo"},
+                    new Alternative {Correct = false, Description = "Chitãozinho"},
+                    new Alternative {Correct = true, Description = "Daniel"},
+                    new Alternative {Correct = false, Description = "Vinny"}
+                }
+            },
+            new Question
+            {
+                Id = 44,
+                Statement = "How many members did the Beatles have?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Three"},
+                    new Alternative {Correct = true, Description = "Four"},
+                    new Alternative {Correct = false, Description = "Five"},
+                    new Alternative {Correct = false, Description = "Six"}
+                }
+            },
+            new Question
+            {
+                Id = 45,
+                Statement = "Who was the last emperor of Brazil?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "D. Pedro II"},
+                    new Alternative {Correct = false, Description = "D. Pedro I"},
+                    new Alternative {Correct = false, Description = "D. João VI"},
+                    new Alternative {Correct = false, Description = "Deodoro da Fonseca"}
+                }
+            },
+            new Question
+            {
+                Id = 46,
+                Statement = "What is the chemical formula of water?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "NaCl"},
+                    new Alternative {Correct = false, Description = "H2"},
+                    new Alternative {Correct = true, Description = "H2O"},
+                    new Alternative {Correct = false, Description = "CO2"}
+                }
+            },
+            new Question
+            {
+                Id = 47,
+                Statement = "What was Cecília Meirelles' profession?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Singer"},
+                    new Alternative {Correct = true, Description = "Writer"},
+                    new Alternative {Correct = false, Description = "Architect"},
+                    new Alternative {Correct = false, Description = "Pianist"}
+                }
+            },
+            new Question
+            {
+                Id = 48,
+                Statement = "In which city is the headquarters of the BBC located?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "London"},
+                    new Alternative {Correct = false, Description = "New York"},
+                    new Alternative {Correct = false, Description = "Montreal"},
+                    new Alternative {Correct = false, Description = "California"}
+                }
+            },
+            new Question
+            {
+                Id = 49,
+                Statement = "What is the capital of the state of Mato Grosso do Sul?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Cuiabá"},
+                    new Alternative {Correct = false, Description = "Várzea Grande"},
+                    new Alternative {Correct = false, Description = "Rondonópolis"},
+                    new Alternative {Correct = true, Description = "Campo Grande"}
+                }
+            },
+            new Question
+            {
+                Id = 50,
+                Statement = "How many continents are there?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Five"},
+                    new Alternative {Correct = true, Description = "Seven"},
+                    new Alternative {Correct = false, Description = "Three"},
+                    new Alternative {Correct = false, Description = "Four"}
+                }
+            },
         };
 
         public App()
