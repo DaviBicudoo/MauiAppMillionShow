@@ -730,6 +730,247 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = true, Description = "Python"}
                 }
             },
+            new Question
+            {
+                Id = 61,
+                Statement = "What is the name of the Patriarch of Brazil's Independence?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Tiradentes"},
+                    new Alternative {Correct = true, Description = "José Bonifácio"},
+                    new Alternative {Correct = false, Description = "Dom Pedro II"},
+                    new Alternative {Correct = false, Description = "Vasco da Gama"}
+                }
+            },
+            new Question
+            {
+                Id = 62,
+                Statement = "The name America was associated with which of these names?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Américo dos Reis"},
+                    new Alternative {Correct = false, Description = "Américo Brasilienses"},
+                    new Alternative {Correct = true, Description = "Américo Vespúcio"},
+                    new Alternative {Correct = false, Description = "José Américo da Silva"}
+                }
+            },
+            new Question
+            {
+                Id = 63,
+                Statement = "Which doctor most commonly uses the electrocardiogram?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Orthopedist"},
+                    new Alternative {Correct = true, Description = "Cardiologist"},
+                    new Alternative {Correct = false, Description = "Dermatologist"},
+                    new Alternative {Correct = false, Description = "Acupuncturist"}
+                }
+            },
+            new Question
+            {
+                Id = 64,
+                Statement = "In which Brazilian city is the Instituto Tecnológico de Aeronáutica located?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "São José do Rio Preto"},
+                    new Alternative {Correct = false, Description = "São José dos Pinhais"},
+                    new Alternative {Correct = true, Description = "São José dos Campos"},
+                    new Alternative {Correct = false, Description = "São José dos Santos"}
+                }
+            },
+            new Question
+            {
+                Id = 65,
+                Statement = "In which city were the 2000 Olympic Games held?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Munich"},
+                    new Alternative {Correct = true, Description = "Sydney"},
+                    new Alternative {Correct = false, Description = "Tokyo"},
+                    new Alternative {Correct = false, Description = "Atlanta"}
+                }
+            },
+            new Question
+            {
+                Id = 66,
+                Statement = "In which country is the Great Wall with approximately 6,400 kilometers located?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Japan"},
+                    new Alternative {Correct = true, Description = "China"},
+                    new Alternative {Correct = false, Description = "Afghanistan"},
+                    new Alternative {Correct = false, Description = "India"}
+                }
+            },
+            new Question
+            {
+                Id = 67,
+                Statement = "What is the sacred temple of the Jews called?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Church"},
+                    new Alternative {Correct = false, Description = "Chapel"},
+                    new Alternative {Correct = true, Description = "Synagogue"},
+                    new Alternative {Correct = false, Description = "Cathedral"}
+                }
+            },
+            new Question
+            {
+                Id = 68,
+                Statement = "To which category does the seahorse belong?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Mollusk"},
+                    new Alternative {Correct = false, Description = "Crustacean"},
+                    new Alternative {Correct = true, Description = "Fish"},
+                    new Alternative {Correct = false, Description = "Mammal"}
+                }
+            },
+            new Question
+            {
+                Id = 69,
+                Statement = "Which country has the FBI as its federal police?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "England"},
+                    new Alternative {Correct = true, Description = "United States"},
+                    new Alternative {Correct = false, Description = "Canada"},
+                    new Alternative {Correct = false, Description = "France"}
+                }
+            },
+            new Question
+            {
+                Id = 70,
+                Statement = "In 1991, which American athlete retired from basketball due to being HIV positive?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Michael Jordan"},
+                    new Alternative {Correct = true, Description = "Magic Johnson"},
+                    new Alternative {Correct = false, Description = "Dennis Rodman"},
+                    new Alternative {Correct = false, Description = "Mike Tyson"}
+                }
+            },
+            new Question
+            {
+                Id = 71,
+                Statement = "What is the name of Charlie Brown's dog?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Pluto"},
+                    new Alternative {Correct = false, Description = "Floquinho"},
+                    new Alternative {Correct = false, Description = "Baleia"},
+                    new Alternative {Correct = true, Description = "Snoopy"}
+                }
+            },
+            new Question
+            {
+                Id = 72,
+                Statement = "Which U.S. president was a movie actor?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "Ronald Reagan"},
+                    new Alternative {Correct = false, Description = "George Bush"},
+                    new Alternative {Correct = false, Description = "Richard Nixon"},
+                    new Alternative {Correct = false, Description = "Bill Clinton"}
+                }
+            },
+            new Question
+            {
+                Id = 73,
+                Statement = "In which U.S. state is the city of Miami located?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Alaska"},
+                    new Alternative {Correct = false, Description = "New York"},
+                    new Alternative {Correct = true, Description = "Florida"},
+                    new Alternative {Correct = false, Description = "California"}
+                }
+            },
+            new Question
+            {
+                Id = 74,
+                Statement = "What is the capital of Iraq?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Belém"},
+                    new Alternative {Correct = true, Description = "Baghdad"},
+                    new Alternative {Correct = false, Description = "Beirut"},
+                    new Alternative {Correct = false, Description = "Budapest"}
+                }
+            },
+            new Question
+            {
+                Id = 75,
+                Statement = "What is the name of the machine used to compact asphalt?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "Road Roller"},
+                    new Alternative {Correct = false, Description = "Excavator"},
+                    new Alternative {Correct = false, Description = "Tractor"},
+                    new Alternative {Correct = false, Description = "Sander"}
+                }
+            },
+            new Question
+            {
+                Id = 76,
+                Statement = "By the banks of which stream was Brazil's Independence proclaimed?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Cambuci"},
+                    new Alternative {Correct = false, Description = "Sacomã"},
+                    new Alternative {Correct = true, Description = "Ipiranga"},
+                    new Alternative {Correct = false, Description = "São Francisco"}
+                }
+            },
+            new Question
+            {
+                Id = 77,
+                Statement = "What sport is the 'Super Bowl' part of?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Baseball"},
+                    new Alternative {Correct = false, Description = "Basketball"},
+                    new Alternative {Correct = true, Description = "American Football"},
+                    new Alternative {Correct = false, Description = "Golf"}
+                }
+            },
+            new Question
+            {
+                Id = 78,
+                Statement = "What is the name of the typical boat from the northeastern coast of Brazil?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Submarine"},
+                    new Alternative {Correct = false, Description = "Jet Ski"},
+                    new Alternative {Correct = true, Description = "Jangada"},
+                    new Alternative {Correct = false, Description = "Boat"}
+                }
+            },
+            new Question
+            {
+                Id = 79,
+                Statement = "Beirut is the capital of which country?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Syria"},
+                    new Alternative {Correct = false, Description = "Nepal"},
+                    new Alternative {Correct = false, Description = "Mongolia"},
+                    new Alternative {Correct = true, Description = "Lebanon"}
+                }
+            },
+            new Question
+            {
+                Id = 80,
+                Statement = "What is a destroyer?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Tank"},
+                    new Alternative {Correct = true, Description = "Warship"},
+                    new Alternative {Correct = false, Description = "Dirigible"},
+                    new Alternative {Correct = false, Description = "Fighter Jet"}
+                }
+            },
+
         };
 
         public App()
