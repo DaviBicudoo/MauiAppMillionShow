@@ -610,6 +610,126 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = false, Description = "Four"}
                 }
             },
+            new Question
+            {
+                Id = 51,
+                Statement = "What are people from the Arctic known as?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Southerners"},
+                    new Alternative {Correct = true, Description = "Eskimos"},
+                    new Alternative {Correct = false, Description = "Northerners"},
+                    new Alternative {Correct = false, Description = "Polar people"}
+                }
+            },
+            new Question
+            {
+                Id = 52,
+                Statement = "Which Japanese city was the first to be bombed with an atomic bomb?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Tokyo"},
+                    new Alternative {Correct = false, Description = "Nagasaki"},
+                    new Alternative {Correct = false, Description = "Osaka"},
+                    new Alternative {Correct = true, Description = "Hiroshima"}
+                }
+            },
+            new Question
+            {
+                Id = 53,
+                Statement = "What is a colorblind person deficient in?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Feeling pain"},
+                    new Alternative {Correct = false, Description = "Feeling taste"},
+                    new Alternative {Correct = true, Description = "Differentiating colors"},
+                    new Alternative {Correct = false, Description = "Feeling smell"}
+                }
+            },
+            new Question
+            {
+                Id = 54,
+                Statement = "What is the day of the Patroness of Brazil?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "October 12"},
+                    new Alternative {Correct = false, Description = "November 12"},
+                    new Alternative {Correct = false, Description = "December 11"},
+                    new Alternative {Correct = false, Description = "January 1"}
+                }
+            },
+            new Question
+            {
+                Id = 55,
+                Statement = "What animal is used in polo?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Camel"},
+                    new Alternative {Correct = true, Description = "Horse"},
+                    new Alternative {Correct = false, Description = "Monkey"},
+                    new Alternative {Correct = false, Description = "Dog"}
+                }
+            },
+            new Question
+            {
+                Id = 56,
+                Statement = "In which year did the Joelma building fire occur in São Paulo?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "1971"},
+                    new Alternative {Correct = false, Description = "1972"},
+                    new Alternative {Correct = false, Description = "1973"},
+                    new Alternative {Correct = true, Description = "1974"}
+                }
+            },
+            new Question
+            {
+                Id = 57,
+                Statement = "Teresina is the capital of which Brazilian state?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Tocantins"},
+                    new Alternative {Correct = true, Description = "Piauí"},
+                    new Alternative {Correct = false, Description = "Acre"},
+                    new Alternative {Correct = false, Description = "Paraná"}
+                }
+            },
+            new Question
+            {
+                Id = 58,
+                Statement = "What does the acronym 'AI' stand for in AI-5?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Intentional Act"},
+                    new Alternative {Correct = true, Description = "Institutional Act"},
+                    new Alternative {Correct = false, Description = "Inspirational Act"},
+                    new Alternative {Correct = false, Description = "Idealizing Act"}
+                }
+            },
+            new Question
+            {
+                Id = 59,
+                Statement = "Which biblical character parted the waters of the Red Sea?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Abraham"},
+                    new Alternative {Correct = true, Description = "Moses"},
+                    new Alternative {Correct = false, Description = "Joshua"},
+                    new Alternative {Correct = false, Description = "Elijah"}
+                }
+            },
+            new Question
+            {
+                Id = 60,
+                Statement = "Which of these snakes is not venomous?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Urutu"},
+                    new Alternative {Correct = false, Description = "Rattlesnake"},
+                    new Alternative {Correct = false, Description = "Jaracaca"},
+                    new Alternative {Correct = true, Description = "Python"}
+                }
+            },
         };
 
         public App()
