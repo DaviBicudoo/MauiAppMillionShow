@@ -1457,6 +1457,7 @@ namespace MauiAppMillionShow
             }
         };
 
+
         public App()
         {
             InitializeComponent();
