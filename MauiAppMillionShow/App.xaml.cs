@@ -1215,11 +1215,246 @@ namespace MauiAppMillionShow
                     new Alternative {Correct = false, Description = "Morocco"}
                 }
             },
-
-
-
-
-
+            new Question
+            {
+                Id = 101,
+                Statement = "Which French painter celebrated the Tahitian woman in his paintings?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Renoir"},
+                    new Alternative {Correct = true, Description = "Gauguin"},
+                    new Alternative {Correct = false, Description = "Cézanne"},
+                    new Alternative {Correct = false, Description = "Monet"}
+                }
+            },
+            new Question
+            {
+                Id = 102,
+                Statement = "What is glucose?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Amino Acid"},
+                    new Alternative {Correct = true, Description = "Carbohydrate"},
+                    new Alternative {Correct = false, Description = "Lipid"},
+                    new Alternative {Correct = false, Description = "Protein"}
+                }
+            },
+            new Question
+            {
+                Id = 103,
+                Statement = "Which of these national teams has never played in a World Cup final?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Spain"},
+                    new Alternative {Correct = false, Description = "Sweden"},
+                    new Alternative {Correct = false, Description = "Hungary"},
+                    new Alternative {Correct = true, Description = "France"}
+                }
+            },
+            new Question
+            {
+                Id = 104,
+                Statement = "What is the origin of the word 'folklore'?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Dutch"},
+                    new Alternative {Correct = false, Description = "English"},
+                    new Alternative {Correct = false, Description = "French"},
+                    new Alternative {Correct = true, Description = "Brazilian"}
+                }
+            },
+            new Question
+            {
+                Id = 105,
+                Statement = "Who won the first Olympic gold medal for Brazil?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Afrânio Antonio Costa"},
+                    new Alternative {Correct = true, Description = "Guilherme Paraense"},
+                    new Alternative {Correct = false, Description = "Fernando Soledade"},
+                    new Alternative {Correct = false, Description = "Sebastião Wolf"}
+                }
+            },
+            new Question
+            {
+                Id = 106,
+                Statement = "What is the fourth planet in the solar system?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Jupiter"},
+                    new Alternative {Correct = false, Description = "Venus"},
+                    new Alternative {Correct = false, Description = "Earth"},
+                    new Alternative {Correct = true, Description = "Mars"}
+                }
+            },
+            new Question
+            {
+                Id = 107,
+                Statement = "What is the nickname of the Ponte Preta football team?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Witch"},
+                    new Alternative {Correct = false, Description = "Fox"},
+                    new Alternative {Correct = false, Description = "Sorceress"},
+                    new Alternative {Correct = true, Description = "Monkey"}
+                }
+            },
+            new Question
+            {
+                Id = 108,
+                Statement = "Who was known as the 'Eagle of The Hague'?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Jorge Amado"},
+                    new Alternative {Correct = false, Description = "Eça de Queirós"},
+                    new Alternative {Correct = true, Description = "Rui Barbosa"},
+                    new Alternative {Correct = false, Description = "Raimundo Corrêa"}
+                }
+            },
+            new Question
+            {
+                Id = 109,
+                Statement = "Who wrote 'Don Quixote'?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Spinoza"},
+                    new Alternative {Correct = true, Description = "Miguel de Cervantes"},
+                    new Alternative {Correct = false, Description = "Carlos Conte"},
+                    new Alternative {Correct = false, Description = "Angel Morita"}
+                }
+            },
+            new Question
+            {
+                Id = 110,
+                Statement = "Which metal has the symbol Hg?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Iron"},
+                    new Alternative {Correct = false, Description = "Steel"},
+                    new Alternative {Correct = true, Description = "Mercury"},
+                    new Alternative {Correct = false, Description = "Gold"}
+                }
+            },
+            new Question
+            {
+                Id = 111,
+                Statement = "What is the name given to a set of bells?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Handrail"},
+                    new Alternative {Correct = true, Description = "Carillon"},
+                    new Alternative {Correct = false, Description = "Bells"},
+                    new Alternative {Correct = false, Description = "Corset"}
+                }
+            },
+            new Question
+            {
+                Id = 112,
+                Statement = "What is the official height of the hoop in basketball?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = true, Description = "3.05 meters"},
+                    new Alternative {Correct = false, Description = "2.97 meters"},
+                    new Alternative {Correct = false, Description = "3.10 meters"},
+                    new Alternative {Correct = false, Description = "3.00 meters"}
+                }
+            },
+            new Question
+            {
+                Id = 113,
+                Statement = "Which athlete was disqualified for doping in the 1988 Olympics?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Mike Powell"},
+                    new Alternative {Correct = true, Description = "Ben Johnson"},
+                    new Alternative {Correct = false, Description = "Carl Lewis"},
+                    new Alternative {Correct = false, Description = "Linford Christie"}
+                }
+            },
+            new Question
+            {
+                Id = 114,
+                Statement = "What test uses sound waves to visualize organs?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Xerography"},
+                    new Alternative {Correct = true, Description = "Ultrasound"},
+                    new Alternative {Correct = false, Description = "Photography"},
+                    new Alternative {Correct = false, Description = "Radiography"}
+                }
+            },
+            new Question
+            {
+                Id = 115,
+                Statement = "What is the specialty of professionals who analyze the grooves and marks of a bullet?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Ballistics"},
+                    new Alternative {Correct = true, Description = "Ballistics"},
+                    new Alternative {Correct = false, Description = "Logistics"},
+                    new Alternative {Correct = false, Description = "Fingerprinting"}
+                }
+            },
+            new Question
+            {
+                Id = 116,
+                Statement = "What was the name of the steam locomotive that traveled on the Estrada de Ferro Mauá in 1854?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Santa Fé"},
+                    new Alternative {Correct = false, Description = "Loco-Breque"},
+                    new Alternative {Correct = true, Description = "American"},
+                    new Alternative {Correct = false, Description = "Baronesa"}
+                }
+            },
+            new Question
+            {
+                Id = 117,
+                Statement = "What is the palate?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Thigh"},
+                    new Alternative {Correct = false, Description = "Darling"},
+                    new Alternative {Correct = true, Description = "Tongue"},
+                    new Alternative {Correct = false, Description = "Roof of the mouth"}
+                }
+            },
+            new Question
+            {
+                Id = 118,
+                Statement = "What did Stradivarius build?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Houses"},
+                    new Alternative {Correct = true, Description = "Violins"},
+                    new Alternative {Correct = false, Description = "Weapons"},
+                    new Alternative {Correct = false, Description = "Roads"}
+                }
+            },
+            new Question
+            {
+                Id = 119,
+                Statement = "What is a talus?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Snow Avalanche"},
+                    new Alternative {Correct = false, Description = "Fungus"},
+                    new Alternative {Correct = true, Description = "Slope of Terrain"},
+                    new Alternative {Correct = false, Description = "Islamic Rite"}
+                }
+            },
+            new Question
+            {
+                Id = 120,
+                Statement = "Which of these words is a synonym for 'complete'?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Low"},
+                    new Alternative {Correct = true, Description = "Perfect"},
+                    new Alternative {Correct = false, Description = "Bold"},
+                    new Alternative {Correct = false, Description = "Ill"}
+                }
+            }
         };
 
         public App()
