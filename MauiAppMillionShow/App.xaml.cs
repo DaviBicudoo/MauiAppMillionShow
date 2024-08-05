@@ -488,6 +488,22 @@ namespace MauiAppMillionShow
             }
         };
 
+        List<Question> mediumQuestions = new()
+        {
+            new Question
+            {
+                Id = 41,
+                Statement = "Who directed the movie 'Central do Brasil'?",
+                Alternatives = new()
+                {
+                    new Alternative {Correct = false, Description = "Bruno Barreto"},
+                    new Alternative {Correct = false, Description = "Héctor Babenco"},
+                    new Alternative {Correct = false, Description = "Arnaldo Jabor"},
+                    new Alternative {Correct = true, Description = "Walter Salles Júnior"}
+                }
+            },
+        };
+
         public App()
         {
             InitializeComponent();
