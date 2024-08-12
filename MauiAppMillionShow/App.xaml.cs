@@ -1457,12 +1457,16 @@ namespace MauiAppMillionShow
             }
         };
 
-
         public App()
         {
             InitializeComponent();
 
             MainPage = new AppShell();
+        }
+
+        public void getRandomEasyQuestion()
+        {
+               
         }
     }
 }
