@@ -4,7 +4,7 @@ namespace MauiAppMillionShow
 {
     public partial class App : Application
     {
-        List<Question> easyQuestions = new()
+        static List<Question> easyQuestions = new()
         {
             new Question
             {
@@ -488,7 +488,7 @@ namespace MauiAppMillionShow
             }
         };
 
-        List<Question> mediumQuestions = new()
+        static List<Question> mediumQuestions = new()
         {
             new Question
             {
@@ -973,7 +973,7 @@ namespace MauiAppMillionShow
 
         };
 
-        List<Question> hardQuestions = new()
+        static List<Question> hardQuestions = new()
         {
             new Question
             {
@@ -1457,16 +1457,39 @@ namespace MauiAppMillionShow
             }
         };
 
+        public static Question getRandomEasyQuestion()
+        {
+            Random randomEasyQuestion = new Random();
+
+            int sort = randomEasyQuestion.Next(1, easyQuestions.Count);
+
+            return easyQuestions[sort];
+        }
+
+        public static Question getRandomMediumQuestion()
+        {
+            Random randomMediumQuestion = new Random();
+
+            int sort = randomMediumQuestion.Next(1, mediumQuestions.Count);
+
+            return mediumQuestions[sort];
+        }
+
+        public static Question getRandomHardQuestion()
+        {
+            Random randomHardQuestion = new Random();
+
+            int sort = randomHardQuestion.Next(1, hardQuestions.Count);
+
+            return hardQuestions[sort];
+        }
+
+
         public App()
         {
             InitializeComponent();
 
             MainPage = new AppShell();
-        }
-
-        public void getRandomEasyQuestion()
-        {
-               
         }
     }
 }

@@ -11,5 +11,10 @@ namespace MauiAppMillionShow.Models
         public int Id { get; set; }
         public string Statement { get; set; }
         public List<Alternative> Alternatives { get; set; }
+
+        void getRandomEasyQuestion()
+        {
+
+        }
     }
 }
