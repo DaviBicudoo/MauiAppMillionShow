@@ -11,7 +11,7 @@
 
         private void Button_Clicked_EasyQuestion(object sender, EventArgs e)
         {
-            this.BindingContext = App.GetRandomEasyQuestion();
+            this.BindingContext = App.getRandomEasyQuestion();
         }
 
         private void Button_Clicked_Next(object sender, EventArgs e)
