@@ -1484,6 +1484,8 @@ namespace MauiAppMillionShow
             return hardQuestions[sort];
         }
 
+        
+
 
         public App()
         {

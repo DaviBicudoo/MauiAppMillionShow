@@ -25,4 +25,20 @@
         </StackLayout>
 
     </StackLayout>
+
+    <StackLayout Spacing="10" Margin="10">
+
+        <Grid ColumnDefinitions="*, *, *"
+              RowDefinitions="Auto, Auto">
+            <Label Grid.Column="0" Grid.Row="0" Text="Reward" />
+            <Label Grid.Column="1" Grid.Row="0" Text="Level" />
+            <Label Grid.Column="2" Grid.Row="0" Text="Question" />
+
+            <Label Grid.Column="0" Grid.Row="1" x:Name="labelReward" />
+            <Label Grid.Column="1" Grid.Row="1" x:Name="labelLevel" />
+            <Label Grid.Column="2" Grid.Row="1" x:Name="labelQuestionNumber" />
+        </Grid>
+
+        <Label Text="{Binding Statement}" />
+    </StackLayout>
 </ContentPage>
