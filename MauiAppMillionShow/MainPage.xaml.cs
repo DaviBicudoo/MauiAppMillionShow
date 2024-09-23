@@ -90,8 +90,8 @@ namespace MauiAppMillionShow
                     break;
             }
 
-            //AudioManager.Current.CreatePlayer(
-            //    FileSystem.OpenAppPackageFileAsync(track));
+            AudioManager.Current.CreatePlayer(
+                FileSystem.OpenAppPackageFileAsync(track).Result).Play();
         }
 
         private void Button_Clicked_EasyQuestion(object sender, EventArgs e)
@@ -154,11 +154,22 @@ namespace MauiAppMillionShow
 
             if(correctAnswer)
             {
+                Stream track = FileSystem.OpenAppPackageFileAsync("congratulations.wav").Result;
+                AudioManager.Current.CreatePlayer(track).Play();
+
                 await DisplayAlert("YOU GOT IT RIGHT!", statementText, "OK");
+
+                questionCount++;
+
+                PlaySong();
+
                 NextQuestion();
             }
             else
             {
+                Stream track = FileSystem.OpenAppPackageFileAsync("error.wav").Result;
+                AudioManager.Current.CreatePlayer(track).Play();
+
                 await DisplayAlert("YOU'RE WRONG", statementText, "OK");
             }
         }
